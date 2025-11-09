@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 GOOGLE_FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSeqWYydQcYC0YQuYUs7uG4WBcDi3BRpdvOf2eGOyJTwORDSKg/viewform?usp=publish-editor"
-FINAL_PRODUCT_LINK="https://docs.google.com/spreadsheets/d/1dEpcLPnwuPm1bJKvF-TSp7ZtvONy4eUV2dtHDNkaBRE/edit?usp=sharing"a
+FINAL_PRODUCT_LINK="https://docs.google.com/spreadsheets/d/1dEpcLPnwuPm1bJKvF-TSp7ZtvONy4eUV2dtHDNkaBRE/edit?usp=sharing"
 response = requests.get(url="https://appbrewery.github.io/Zillow-Clone/")
 zillow_website = response.text
 
